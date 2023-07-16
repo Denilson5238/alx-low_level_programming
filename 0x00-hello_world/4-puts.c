@@ -7,15 +7,6 @@
  */
 int main(void)
 {
-	char ch = 'a';
-	while (ch <= 'z')
-	{
-		if (ch != 'e' && ch != 'q')
-		{
-			puts(ch);
-		}
-		ch++;
-	}
-	puts('\n');
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
