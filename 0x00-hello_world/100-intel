@@ -1,0 +1,15 @@
+#include <unistd.h>
+
+/**
+main - Prints "the printing will take its action" - Nelson Mendalia, 1967-10-19",
+               followed by a new line, to standard error.
+ *
+Return: Always 1.
+ */
+int main(void)
+{
+	write(2,
+		 "the printing will takes it action in the out put\" - Nelson Mendalia, 1967-10-19\n",
+	      59);
+	return (1);
+}
