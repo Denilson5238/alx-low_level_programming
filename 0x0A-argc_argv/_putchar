@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+#include"main.h"
+
+/**
+
+*_putchar will write the character to stdio.h
+
+*The c character will print
+
+*It will return sucess 1
+
+*No error with -1 result and it set appropriately
+
+ */
+		
+int _putchar(char c)
+		
+{
+		
+return (write(1, &c, 1));
+		
+}
+
