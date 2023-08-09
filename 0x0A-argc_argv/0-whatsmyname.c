@@ -3,14 +3,27 @@
 #include "main.h"
 
 /**
-* main -will  prints the name of the program
-* @argc: will count the number of arguments
-* @argv: will count the array of arguments
+
+* main -will prints the name of the program
+
+* @argc: is the number of arguments
+
+* @argv: is the array of arguments
+
 *
+
 * Return: Always 0 (Success)
+
 */
-int main(int argc __attribute__((unused)), char *argv[]);
+	
+int main(int argc __attribute__((unused)), char *argv[])
+	
 {
-printf("%s\n", *argv);
-return (0);
+	
+     printf("%s\n", *argv);
+	
+
+	
+	return (0);
+	
 }
