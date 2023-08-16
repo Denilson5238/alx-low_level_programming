@@ -14,6 +14,6 @@ void init_dog(struct dog *dg, char *name, float age, char *owner)
 		dg = malloc(sizeof(struct dog));
 	dg->name = name;
 	dg->age = age;
-	dgi->owner = owner;
+	dg->owner = owner;
 }
 
