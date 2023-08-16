@@ -2,8 +2,8 @@
 #define DOG_H
 
 /**
- * I have a struct dog - a dog's basic info
- * @name: The First is member
+ *  struct dog - a dog's basic info
+ * @name: First  member
  * @age: And the Second is member
  * @owner: while the Third is member
  *
